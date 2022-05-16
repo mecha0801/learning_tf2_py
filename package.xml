@@ -3,9 +3,15 @@
 <package format="3">
   <name>learning_tf2_py</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Learning tf2 with rclpy</description>
   <maintainer email="mechatronics0801@gmail.com">devlim</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache license 2.0</license>
+
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>tf_transformations</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>turtlesim</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
